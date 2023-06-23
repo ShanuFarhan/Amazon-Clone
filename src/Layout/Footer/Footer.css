@@ -1,0 +1,38 @@
+.footer{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+    background: #000;
+}
+.footerbottomtotop{
+    background: #232f3e;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.footerbottomtotop:hover{
+    cursor: pointer;
+    background: #000;
+}
+.footerRow{
+    display: table;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+.footerColumn{
+    display: table-cell;
+    line-height: 18px;
+    padding: 0 10px;
+}
+.footercolumnhead{
+    font-size: 15px;
+    margin: 6px 0 15px 0;
+    white-space: nowrap;
+    font-weight: 700;
+}
+.footerColumn ul{
+    margin: 0;
+    padding: 0;
+}
+.footerColumn ul li{
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Besley",serif;
+outline: none;
+border: none;
+text-decoration: none;
+list-style: none;
+scroll-behavior: smooth;
+}
+*::selection{
+  background-color: red;
+  color: black;
+}
+::-webkit-scrollbar-track{
+  background: black;
+}

@@ -1,0 +1,11 @@
+.cart{
+    display: flex;
+    flex: 1 0 auto;
+    height: max-content;
+    padding: 23px;
+}
+.cart img{
+    width: 350px;
+    height: 250px;
+    object-fit: contain;
+}

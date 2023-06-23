@@ -1,0 +1,105 @@
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header .headerTop{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header .headerleft{
+    color: #fff;
+    padding: 5px 5px 2px 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid #555;
+}
+.header .logo{
+    width: 100px;
+    object-fit: cover;
+    margin: 18px 20px 0 20px;
+}
+.header .headerserach{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 25px;
+
+}
+.header .searchinput{
+    width: 100%;
+    height: 37px;
+    padding: 10px;
+}
+          
+.header .searchicon{
+    background-color: #cd9042;
+    height: 37px !important;
+    cursor: pointer;
+}
+.headerNavbar, .headerNavbar span{
+     display: flex;
+     justify-content: center;
+}
+.headerlink:first-child{
+    width: 130px;
+}
+.headerlink{
+    color: #fff;
+}
+.headerNavbar .headeroption{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.headeroption1{
+    font-size: 12px;
+}
+.headeroption2{
+    font-size: 14px;
+    font-weight: 800;
+}
+.headeroption_basket{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.header .basketCount{
+    border: 1px solid white;
+    font-size: 16px;
+    border-radius: 100px;
+    margin: 0 15px -20px -10px;
+    padding: 2px 4px;
+}
+.headerbottom{
+    background: black;
+    padding-top: 5px;
+    height: 42px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.headeraddress{
+    display: flex;
+}
+.headeraddress_icon{
+    vertical-align: middle;
+}
+.headerbotton_navbar{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.headerbotton_navbar span{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.headerLink{
+    color: white;
+}
